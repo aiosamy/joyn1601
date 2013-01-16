@@ -1,0 +1,50 @@
+start_test_server_in_background
+start_test_server_in_background
+exit
+start_test_server_in_background
+query("TextView")
+query("Button")
+query("TextView")
+query('Button')
+query("button")
+exit
+start_test_server_in_background
+query("button")
+query("TextView")
+query("TextView")
+query("TextView").first
+query("TextView").Beach
+query("Beach").touch
+query("Beach")
+query("TextView Beach")
+touch("")
+query("TextView")
+query("TextView id:contact_row_name text:Beach")
+query("TextView id:contact_row_name ")
+query("TextView id:contact_row_name")
+query("TextView id:'contact_row_name'")
+query("TextView id:'contact_row_name' text:'Beach'")
+touch("TextView id:'contact_row_name' text:'Beach'")
+exit
+start_test_server_in_background
+touch ("IconMenuItemView id:'title' text:'Delete history'")
+ performAction('inspect_current_dialog')
+query("Button id:'button1')
+query("Button id:'button1'")
+query("Button id:'button1'")
+query("Button id:'button1' text:'Delete'")
+touch("Button id:'button1' text:'Delete'")
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+query("Button id:'button1'")
+touch("Button id:'button1'")
+exit
+start_test_server_in_background
+query("Button id:'button1' text:'Delete'")
+query("Button id:'button1'")
+exit

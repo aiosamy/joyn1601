@@ -1,0 +1,31 @@
+130116 11:50:54.608:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: wake.
+130116 11:50:54.616:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: getvar display.width.
+130116 11:50:54.634:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: getvar display.height.
+130116 11:50:56.642:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch down 270 0.
+130116 11:50:56.648:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 0.
+130116 11:50:57.059:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 96.
+130116 11:50:57.162:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 192.
+130116 11:50:57.264:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 288.
+130116 11:50:57.369:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 384.
+130116 11:50:57.488:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 480.
+130116 11:50:57.602:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 576.
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice] Error starting command: monkey --port 12345
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]com.android.ddmlib.ShellCommandUnresponsiveException
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at com.android.chimpchat.adb.AdbChimpDevice$1.run(AdbChimpDevice.java:105)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+130116 11:50:57.654:I [pool-1-thread-1] [com.android.chimpchat.adb.AdbChimpDevice]	at java.lang.Thread.run(Thread.java:662)
+130116 11:50:57.715:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 672.
+130116 11:50:57.823:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 768.
+130116 11:50:57.934:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 864.
+130116 11:50:58.054:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch move 270 960.
+130116 11:50:58.057:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: touch up 270 960.
+True  -- image stabilizing...
+130116 11:51:05.762:W [MainThread] [com.android.monkeyrunner.MonkeyDevice] Invalid TouchPressType specified (DOWN_AND_UP) default used instead
+130116 11:51:05.763:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: tap 96 535.
+130116 11:51:08.562:I [MainThread] [com.android.chimpchat.ChimpManager] Monkey Command: quit.
